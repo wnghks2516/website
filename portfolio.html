@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js"> 
   <head>
-    <title>NeuBizz | Services | Bootstrap 4 Template by WebThemez</title>
+    <title>NeuBizz | NeuBizz | Price | Bootstrap 4 Template by WebThemez</title>
 
     <!-- Meta -->
     <meta charset="utf-8"/>
@@ -14,16 +14,19 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css"> 
+    <!-- Bootstrap Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css">  
     <link rel="stylesheet" type="text/css" href="assets/vendors/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick-carousel/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/hovereffects.css">  
 	<link href="assets/vendors/ace-responsive-menu/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
 	<link href="assets/vendors/aos/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   </head> 
- <body>
+
+  <body>
    <div class="hidden-xs hidden-sm nav-top bg-primary py-2">
         <div class="container">
           <div class="row">
@@ -95,13 +98,13 @@
 							<span class="title">About Us</span>
 						</a>
 					</li>
-					 <li class="menu-active">
-						<a href="services.html" class="active"> 
+					 <li>
+						<a href="services.html"> 
 							<span class="title">Services</span>
 						</a>
 					</li>
 					
-						<li>
+						<li class="menu-active">
 						<a href="javascript:;"> 
 							<span class="title">Pages</span> 
 							<span class="arrow"></span> </a>
@@ -113,7 +116,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="portfolio.html"> 
+								<a href="portfolio.html" class="active"> 
 									<span class="title">Portfolio</span>
 								</a>
 							</li> 
@@ -152,130 +155,133 @@
 				<div class="row justify-content-md-center align-items-center text-white py-4 py-lg-5">
 					<div class="col-md-7">
 						<div class="text-center">
-							<h1 class="display-sm-4 display-lg-3">Services</h1>
+							<h1 class="display-sm-4 display-lg-3">Portfolio</h1>
 							<p class="sub-text">Aspernatur at enim excepturi facere in reiciendis</p>
 					  </div>
 					</div>
 				</div>
 			</div>
 		</section>
-    <main role="main"> 
-  <div class="wt-section">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-5">
-                <h5 class="text-primary">Our Services</h5>
-                <h2 class="mb-4">Find the best services and consulting for affordable deals</h2>
-                <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat labore libero molestias provident quae quaerat quis!  </p>
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/services/business-1.jpg" class="w-100" alt="">
+ <main role="main"> 
+ <section class="wt-section"> 
+ <div class="container">
+        <div class="row justify-content-md-center text-center pb-lg-5">
+            <div class="col-md-12">
+                <h2 class="h1">Our Works Tells More..</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
             </div>
         </div>
-    </div>
-</div>
- 
-<section class="bg-light wt-section">
-        <div class="container">
-		<div class="row justify-content-md-center text-center pb-lg-4 mb-lg-5 mb-4">
-          <div class="col-md-8 text-center w-md-50 mx-auto mb-0">
-            <h2 class="mb-md-2">Our Products</h2>
-            <p class="lead text-muted">Eius eligendi fugiat labore libero molestias provident quae quaerat quis!</p>
-          </div>
-		</div> 
-          <div class="row">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-                <div class="mb-4"><img src="assets/img/services/1.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">Excellent Features</h4>
-              <p>Achieve virtually any look and layout design within one UI Kit solution.</p>
+         <div class="portfolio-menu mt-2 mb-4 pb-3">
+            <ul>
+               <li class="btn btn-pill mr-2 active" data-filter="*">All</li>
+               <li class="btn btn-pill mr-2" data-filter=".gts">Finance</li>
+               <li class="btn btn-pill mr-2" data-filter=".lap">Tech</li>
+               <li class="btn btn-pill" data-filter=".selfie">CMS</li>
+            </ul>
+         </div>
+         <div class="portfolio-item row">
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img1.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img1.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+			    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img2.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img2.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+				    <div class="item lap col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img3.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img3.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
             </div>
-
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-                <div class="mb-4"><img src="assets/img/services/2.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">Powerful API</h4>
-              <p>We strive to figure out ways to help your audience grow through all platforms.</p>
-            </div>
-
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-                <div class="mb-4"><img src="assets/img/services/3.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">Blockchain Based</h4>
-              <p>Find what you need in one template and combine features at will.</p>
-            </div>
-          </div> 
-
-          <hr class="my-5"> 
-          <div class="row">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-                <div class="mb-4"><img src="assets/img/services/4.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">VueJS Included</h4>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-            </div>
-
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-                <div class="mb-4"><img src="assets/img/services/5.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">React Powered</h4>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-            </div>
-
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-2">
-               <div class="mb-4"><img src="assets/img/services/6.svg" width="80px" alt=""/></div> 
-              </div>
-              <h4 class="h5">Angular Compatible</h4>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-            </div>
-          </div> 
-        </div>
-      </section>
-<div class="card gradient-primary bg-primary border-0 rounded-0 p-5">
-    <div class="container">
-        <div class="row justify-content-between align-items-center text-center text-md-left">
-            <div class="col-md-8">
-                <h5 class="mb-1 text-white d-inline-block border-right border-sm-right-0 pr-md-4 mr-md-4">Best Deals</h5>
-                <p class="mb-0 text-white d-inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-            <div class="col-md-4 text-lg-right mt-md-0 mt-3">
-                <a href="#" class="btn btn-pill btn-outline-light">Grab the Deal</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section class="wt-section">
-    <div class="container">
-	<div class="row justify-content-md-center text-center pb-lg-4 mb-lg-5 mb-4">
-          <div class="col-md-8 text-center w-md-50 mx-auto mb-0 ">
-            <h2 class="mb-md-2">Best Awarded</h2>
-            <p class="lead text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-          </div>
-		</div>
-        <div class="row justify-content-md-center align-items-center text-center">
-            <div class="col-md-6 px-md-5"> 
-				<i class="fab fa-connectdevelop display-4 text-primary mb-4"></i> 
-                <h2 class="mb-md-4 mt-3">There are many variations of passages of Lorem Ipsum available.</h2>
-                <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p> 
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/services/business-4.jpg" class="w-100" alt="">
-            </div>
-        </div> 
-    </div>
-</section>
-
-    </main>
-
-   
-    <!-- Footer --> 
+				    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img4.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img4.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+				    <div class="item lap col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img5.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img5.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+				    <div class="item gts col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img6.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img6.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+				    <div class="item gts col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img7.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img7.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div> 
+				    <div class="item selfie col-lg-3 col-md-4 col-6 col-sm"> 
+				<div class="hovereffect">
+					<img class="img-fluid img-responsive" src="assets/img/portfolio/img8.jpg" alt="">
+						<div class="overlay"> 
+							<p>
+								<a href="assets/img/portfolio/img8.jpg" class="fancylight popup-btn info" data-fancybox-group="light">My Profile
+								<i>View</i></a>
+							</p>
+						</div>
+					</div> 
+			    
+            </div>   
+         </div>
+      </div>
+</section>	
+    </main> 
+       <!-- Footer -->
+   <!-- Footer --> 
 <footer class="wt-section bg-dark main-footer">
 <div class="container">
 <div class="row">
@@ -336,7 +342,6 @@
 </div> 
 </footer>
     <!-- End Footer --> 
-	
     <!-- JS Script Files -->
     <!-- Global Vendor -->
     <script src="assets/vendors/jquery.min.js"></script>
@@ -347,12 +352,15 @@
 
     <!-- Components Vendor  --> 
     <script src="assets/vendors/slick-carousel/slick.min.js"></script>
-	   <script src="assets/vendors/ace-responsive-menu/ace-responsive-menu.js"></script>
+	<script src="assets/vendors/ace-responsive-menu/ace-responsive-menu.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!--Plugin Initialize-->
     <script src="assets/js/global.js"></script> 
-    <script src="assets/vendors/carousel.js"></script>
-	
+	<script src="assets/js/portfolio.js"></script> 
+    <!-- Theme Components and Settings --> 
+    <script src="assets/vendors/carousel.js"></script> 
     <!-- END JAVASCRIPTS -->
   </body> 
 </html>
