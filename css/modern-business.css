@@ -20,3 +20,6 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+.container{
+	min-height: 900px;
+}
