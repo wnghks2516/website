@@ -424,7 +424,7 @@ pre code {
 	margin-top:60px;
 }
 .container_portfolio {
-	min-height:800px;
+	min-height:1000px;
 }
 @media (min-width:576px) {
 	.container {
