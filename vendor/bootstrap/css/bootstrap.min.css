@@ -420,6 +420,9 @@ pre code {
 .container_contact{
 	min-height: 800px;
 }
+.container_index {
+	margin-top:60px;
+}
 @media (min-width:576px) {
 	.container {
 		max-width:540px
