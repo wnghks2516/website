@@ -19,7 +19,7 @@ html {
   font-size: 1rem;
 }
 
-body {
+/*body {
   font-weight: 400;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
@@ -29,7 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga", "kern";
   text-rendering: optimizelegibility;
-}
+}*/
 
 a {
   color: #ff9d34;
