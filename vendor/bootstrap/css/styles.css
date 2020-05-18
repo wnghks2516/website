@@ -12,7 +12,7 @@ License: https://webthemez.com/license
 h1, h2{
 	font-family: 'Archivo Black', sans-serif;
 	font-weight:bolder;
-	color: #014073;
+	/*color: #014073;*/
 }
 
 html {
