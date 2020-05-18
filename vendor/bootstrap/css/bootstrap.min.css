@@ -423,6 +423,9 @@ pre code {
 .container_index {
 	margin-top:60px;
 }
+.container_portfolio {
+	min-height:800px;
+}
 @media (min-width:576px) {
 	.container {
 		max-width:540px
