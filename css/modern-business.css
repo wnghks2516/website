@@ -20,3 +20,7 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+::selection {
+  color: #fff;
+  background-color: #ff9d34;
+}
