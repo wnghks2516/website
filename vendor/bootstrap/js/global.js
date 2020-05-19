@@ -1,4 +1,4 @@
-(function($) {
+window.onload  = function() { (function($) {
   'use strict';
 
   $("#respMenu").aceResponsiveMenu({
@@ -57,3 +57,4 @@
 
 		 
 }(jQuery));
+};
