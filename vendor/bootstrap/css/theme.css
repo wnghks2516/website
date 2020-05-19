@@ -1511,7 +1511,7 @@ color: #fff !important;
 	background:007bff;
 }
 .navbar a{ 
-     color: #211f1f !important;
+     /*color: #211f1f !important;*/
 }
 .inner-page .navbar-bg-onscroll .nav-link{
 	 color: #211f1f !important;
