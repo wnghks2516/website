@@ -1,2 +1,1 @@
-<?echo "hello world";exit;
-?>
+<?echo "hello world";exit;?>
